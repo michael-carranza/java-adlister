@@ -3,17 +3,14 @@
 <html>
 <head>
     <title><%= "Welcome to my Adlister!" %></title>
-    <jsp:include page="partials/head.jsp">
+    <jsp:include page="WEB-INF/partials/head.jsp">
         <jsp:param name="title" value="Your Profile" />
     </jsp:include>
 </head>
 <body>
-    <jsp:include page="partials/navbar.jsp" />
-    <c:if test="true">
-        <h1>Variable names should be very descriptive</h1>
-    </c:if>
-    <c:if test="false">
-        <h1>single letter variable names are good</h1>
-    </c:if>
+    <jsp:include page="WEB-INF/partials/navbar.jsp" />
+        <h1>Welcome to my Adlister!</h1>
+        <h2>Come on in; the Water is Warm.</h2>
+
 </body>
 </html>

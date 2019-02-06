@@ -1,0 +1,16 @@
+body {background-color: darkolivegreen;
+color: palegoldenrod}
+
+    h1{text-align: center}
+    h2{text-align: center}
+
+    nav.navbar{
+        background-color: palegoldenrod;
+    }
+.navbar-default .navbar-brand {
+color:darkolivegreen;
+}
+.btn-primary {
+background-color: dimgray;
+    border-color: lightgray;
+}

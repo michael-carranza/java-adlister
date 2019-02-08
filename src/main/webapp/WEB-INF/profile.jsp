@@ -10,6 +10,9 @@
 
     <div class="container">
         <h1>Viewing your profile.</h1>
+        <ul>
+            <li>User Name: ${sessionScope.user}</li>
+        </ul>
     </div>
 
 </body>
